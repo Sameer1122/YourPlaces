@@ -1,7 +1,50 @@
 .place-list {
+  display: grid;
+  height: 100vh;
+  overflow-y: scroll;
   list-style: none;
   margin: 1rem auto;
   padding: 0;
   width: 90%;
-  max-width: 40rem;
+}
+@media only screen and (min-width: 768px) {
+  .place-list {
+    grid-gap: 24px;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100vh;
+    overflow-y: scroll;
+    list-style: none;
+    margin: 1rem auto;
+    padding: 0;
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1168px) {
+  .place-list {
+    grid-gap: 24px;
+    display: grid;
+    grid-template-columns: 33.3% 33.33% 33.33%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    list-style: none;
+    margin: 1rem auto;
+    padding: 74px;
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1980px) {
+  .place-list {
+    grid-gap: 24px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    list-style: none;
+    margin: 1rem auto;
+    padding: 0;
+    width: 90%;
+  }
 }

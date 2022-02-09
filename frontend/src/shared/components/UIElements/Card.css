@@ -1,9 +1,10 @@
 .card {
   position: relative;
   margin: 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  box-shadow: 12px 12px 8px rgb(0 0 0 / 48%);
   border-radius: 6px;
   padding: 1rem;
   overflow: hidden;
-  background: white;
+  color: white;
+  background: radial-gradient(#122b3c66, #000000c9);
 }

@@ -6,9 +6,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: #ff0055;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 8px 16px rgb(255 255 255 / 26%);
+
   padding: 0 1rem;
+  background: #0002147a;
   z-index: 5;
 }
 

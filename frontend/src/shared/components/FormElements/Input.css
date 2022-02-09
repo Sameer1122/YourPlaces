@@ -16,26 +16,28 @@
 .form-control input,
 .form-control textarea {
   width: 100%;
+  color: white;
   font: inherit;
-  border: 1px solid #ccc;
-  background: #f8f8f8;
-  padding: 0.15rem 0.25rem;
+  border: 1px solid #fff;
+  background: #0000007a;
+
+  padding: 0.35rem 0.25rem;
+  border-radius: 16px;
 }
 
 .form-control input:focus,
 .form-control textarea:focus {
   outline: none;
-  background: #ebebeb;
-  border-color: #510077;
+  background: #0000007a;
 }
 
 .form-control--invalid label,
 .form-control--invalid p {
-  color: red;
+  color: rgb(226 13 13);
 }
 
 .form-control--invalid input,
 .form-control--invalid textarea {
-  border-color: red;
-  background: #ffd1d1;
+  border-color: rgb(226 13 13);
+  background: #0000007a;
 }

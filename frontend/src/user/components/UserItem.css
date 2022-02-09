@@ -12,12 +12,13 @@
   text-decoration: none;
   padding: 1rem;
   color: white;
-  background: #292929;
+  background: #a35b27a8;
 }
 
 .user-item a:hover,
 .user-item a:active {
-  background: #ffd900;
+  background: #50c850;
+  transition: 0.5s ease-out;
 }
 
 .user-item__content {

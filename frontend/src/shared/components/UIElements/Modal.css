@@ -4,15 +4,16 @@
   top: 22vh;
   left: 10%;
   width: 80%;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  background: radial-gradient(#ffffff66, #1373f312);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
   border-radius: 8px;
 }
 
 .modal__header {
   width: 100%;
   padding: 1rem 0.5rem;
-  background: #2a006e;
+  background: #d7000099;
   color: white;
 }
 
