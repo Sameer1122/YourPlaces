@@ -16,10 +16,10 @@
 .form-control input,
 .form-control textarea {
   width: 100%;
-  color: white;
+  color: rgb(68, 68, 68);
   font: inherit;
   border: 1px solid #fff;
-  background: #0000007a;
+  background: rgb(240, 240, 240);
 
   padding: 0.35rem 0.25rem;
   border-radius: 16px;
@@ -28,7 +28,6 @@
 .form-control input:focus,
 .form-control textarea:focus {
   outline: none;
-  background: #0000007a;
 }
 
 .form-control--invalid label,
@@ -39,5 +38,4 @@
 .form-control--invalid input,
 .form-control--invalid textarea {
   border-color: rgb(226 13 13);
-  background: #0000007a;
 }

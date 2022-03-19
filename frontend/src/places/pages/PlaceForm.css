@@ -5,8 +5,8 @@
   padding: 1rem;
   width: 90%;
   max-width: 40rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  box-shadow: 4px 8px 16px rgb(0 0 0 / 26%);
   border-radius: 6px;
-  color: white;
-  background: radial-gradient(#122b3c66, #000000c9);
+  color: #555555;
+  background: white;
 }

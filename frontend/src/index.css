@@ -10,9 +10,8 @@ html {
 
 body {
   margin: 0;
-  background-image: url(https://wallpapercave.com/wp/wp3293972.jpg);
-  background-size: cover;
   height: 100%;
+  background: url(./images/pattern.png);
 }
 
 .slide-in-left-enter {
@@ -54,10 +53,10 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(51, 66, 150);
+  background: #4699c5;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(51, 66, 150);
+  background: #387799;
 }
